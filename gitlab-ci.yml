@@ -4,7 +4,7 @@ stages:
 execute_script:
   stage: execute_script
   script:
-    - capture_date.bat
+    - CaptureTime.bat
   artifacts:
     paths:
       - output.txt
